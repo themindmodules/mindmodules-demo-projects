@@ -1,0 +1,6 @@
+Ref,Qty,Value,Notes
+Board,1,NUCLEO-G474RE or any STM32G474 board,Any board exposing PA0-PA3 and a UART
+R1-R4,4,1 kohm,Series resistor per input (optional protection)
+C1-C4,4,10 nF,RC low-pass per input (optional; about 16 kHz corner with 1 kohm)
+RV1,1,10 kohm trimmer,Test input source
+Cable,1,USB cable,Power and ST-LINK virtual COM port

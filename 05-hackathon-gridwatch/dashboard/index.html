@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>GridWatch demo dashboard</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#07120f;--fg:#eafff4;--mut:#9bbfae;--g:#00e676;--c:#ffb454;--r:#ff5c5c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:Segoe UI,Arial,sans-serif;padding:20px}
+h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
+.card{background:#0b1f18;border:1px solid #17402f;border-radius:12px;padding:14px;margin-bottom:16px}
+canvas{width:100%;height:260px;display:block}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:6px 8px;border-bottom:1px solid #17402f;text-align:left}
+.tag{padding:2px 8px;border-radius:8px;font-size:12px;font-weight:700;color:#07120f}
+.VOLTAGE{background:var(--c)}.SPIKE{background:var(--g)}.STUCK-ON{background:var(--r)}
+</style></head><body>
+<h1>GridWatch <span style="color:var(--g)">demo</span></h1>
+<div class="sub">Synthetic 24 h data from simulator/sim.py. Not measured from real hardware.</div>
+<div class="card"><b>Power (W)</b><canvas id="p"></canvas></div>
+<div class="card"><b>Voltage (V)</b><canvas id="v"></canvas></div>
+<div class="card"><b>Detected events</b><table id="ev"><tr><th>Time</th><th>Type</th><th>Detail</th></tr></table></div>
+<script src="data.js"></script>
+<script>
+function draw(id, series, lo, hi, color, events, band){
+  var c=document.getElementById(id), dpr=window.devicePixelRatio||1;
+  var w=c.clientWidth, h=c.clientHeight; c.width=w*dpr; c.height=h*dpr;
+  var g=c.getContext("2d"); g.scale(dpr,dpr); g.clearRect(0,0,w,h);
+  var X=function(i){return 40+i*(w-50)/(series.length-1)}, Y=function(v){return h-20-(v-lo)*(h-30)/(hi-lo)};
+  g.strokeStyle="#17402f"; g.fillStyle="#9bbfae"; g.font="11px Segoe UI";
+  for(var t=0;t<=24;t+=4){var x=X(t*60>=series.length?series.length-1:t*60);g.beginPath();g.moveTo(x,5);g.lineTo(x,h-20);g.stroke();g.fillText(t+":00",x-10,h-5);}
+  if(band){g.fillStyle="rgba(0,230,118,.08)";g.fillRect(40,Y(band[1]),w-50,Y(band[0])-Y(band[1]));}
+  g.strokeStyle=color; g.lineWidth=1.5; g.beginPath();
+  series.forEach(function(v,i){i?g.lineTo(X(i),Y(v)):g.moveTo(X(i),Y(v));}); g.stroke();
+  events.forEach(function(e){g.strokeStyle="#ff5c5c";g.lineWidth=1;g.beginPath();g.moveTo(X(e.minute),5);g.lineTo(X(e.minute),h-20);g.stroke();});
+}
+var D=window.GRIDWATCH;
+draw("p",D.p,0,2200,"#00e676",D.events);
+draw("v",D.v,190,260,"#ffb454",D.events,[207,253]);
+var tb=document.getElementById("ev");
+D.events.forEach(function(e){var r=tb.insertRow();r.innerHTML="<td>"+e.time+"</td><td><span class='tag "+e.type+"'>"+e.type+"</span></td><td>"+e.detail+"</td>";});
+</script></body></html>

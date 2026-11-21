@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="Segoe UI, Arial, sans-serif">
+<rect width="960" height="520" fill="#07120f"/>
+<g stroke-width="2" fill="none">
+<rect x="360" y="60" width="240" height="400" rx="14" fill="#0b1f18" stroke="#00e676"/>
+<rect x="40" y="70" width="200" height="70" rx="10" stroke="#00e676"/>
+<rect x="40" y="180" width="200" height="70" rx="10" stroke="#00e676"/>
+<rect x="40" y="290" width="200" height="70" rx="10" stroke="#00e676"/>
+<rect x="720" y="150" width="200" height="70" rx="10" stroke="#ffb454"/>
+<rect x="720" y="290" width="200" height="70" rx="10" stroke="#ffb454"/>
+<path d="M240 105H360M240 215H360M240 325H360" stroke="#00e676"/>
+<path d="M600 160H660V185H720M600 200H680V325H720" stroke="#ffb454"/>
+</g>
+<g fill="#eafff4" font-size="20" text-anchor="middle">
+<text x="480" y="95" font-weight="700">Arduino Uno / Nano</text>
+<text x="140" y="112">Soil sensor</text><text x="140" y="222">LDR + 10k divider</text><text x="140" y="332">Button to GND</text>
+<text x="820" y="192">Gate: 100R + 100k pulldown</text><text x="820" y="332">N-MOSFET (logic level)</text>
+</g>
+<g fill="#9bbfae" font-size="16" text-anchor="middle">
+<text x="300" y="95">A0</text><text x="300" y="205">A1</text><text x="300" y="315">D2</text><text x="640" y="150">D6</text>
+<text x="480" y="130">5V / GND to sensors</text>
+<text x="820" y="395">Drain to pump (-), diode across pump</text>
+<text x="820" y="420">Pump supply (+) separate, grounds joined</text>
+</g>
+</svg>

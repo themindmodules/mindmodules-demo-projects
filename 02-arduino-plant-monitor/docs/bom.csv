@@ -1,0 +1,12 @@
+Ref,Qty,Value,Notes
+U1,1,Arduino Uno or Nano,5 V ATmega328P
+S1,1,Capacitive soil moisture sensor v1.2,Analog out
+R_LDR,1,LDR (photoresistor),Any
+R1,1,10 kohm,LDR divider
+Q1,1,IRLZ44N or logic-level N-MOSFET,Must switch fully at 5 V gate
+R2,1,100 ohm,Gate series resistor
+R3,1,100 kohm,Gate pulldown
+D1,1,1N4007,Flyback diode across the pump
+P1,1,Small 5-6 V DC water pump,Check current rating
+PS1,1,5-6 V supply for the pump,Separate from the Arduino
+SW1,1,Push button,Calibration mode
