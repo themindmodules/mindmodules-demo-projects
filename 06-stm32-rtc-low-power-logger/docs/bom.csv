@@ -1,0 +1,9 @@
+Ref,Qty,Value,Notes
+Board,1,NUCLEO-L432KC,Any STM32L432 board works; the Nucleo has an IDD jumper for current measurement
+X1,1,32.768 kHz crystal (LSE),Already fitted on the NUCLEO-L432KC; needed for an accurate RTC
+RT1,1,10 kohm NTC (B 3950),External sensor; any sensor that runs from 3.3 V and outputs 0 to VDDA works
+R1,1,10 kohm 1%,Fixed half of the NTC divider
+C1,1,10 nF ceramic,Across RT1 at the ADC pin; gives about 50 us settling with the 5 kohm source
+Meter,1,Multimeter with uA range or a current probe,Placed across the IDD jumper
+Cell,1,CR2032 holder or 2 x AA holder,Optional; for a battery run feed 3.0 V into the 3V3 pin with USB unplugged
+Cable,1,Micro USB cable,Flashing and the ST-LINK virtual COM port

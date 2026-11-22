@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Segoe UI, Arial, sans-serif">
+<rect width="900" height="480" fill="#07120f"/>
+<g fill="none" stroke="#00e676" stroke-width="2">
+<rect x="500" y="40" width="340" height="400" rx="14" fill="#0b1f18"/>
+<rect x="50" y="50" width="240" height="280" rx="10"/>
+<rect x="50" y="370" width="240" height="70" rx="10"/>
+</g>
+<g fill="none" stroke="#ffb454" stroke-width="2">
+<path d="M175 80H500"/>
+<path d="M175 200H500"/>
+<path d="M120 305H500"/>
+<path d="M290 405H500"/>
+</g>
+<g fill="none" stroke="#9bbfae" stroke-width="2">
+<rect x="160" y="95" width="30" height="60"/>
+<rect x="160" y="230" width="30" height="60"/>
+<path d="M175 80V95M175 155V230M175 290V305"/>
+<path d="M175 200H120V215M106 215H134M106 225H134M120 225V305"/>
+</g>
+<g fill="#ffb454"><circle cx="175" cy="200" r="4"/><circle cx="175" cy="305" r="4"/></g>
+<g fill="#eafff4" font-size="20">
+<text x="670" y="78" text-anchor="middle" font-weight="700">NUCLEO-L432KC</text>
+<text x="170" y="355" text-anchor="middle">NTC divider</text>
+<text x="170" y="400" text-anchor="middle">Supply</text>
+</g>
+<g fill="#9bbfae" font-size="15">
+<text x="200" y="130">RT1 10k NTC</text>
+<text x="200" y="265">R1 10k</text>
+<text x="60" y="250">C1 10nF</text>
+<text x="400" y="72" text-anchor="middle">PA1 (A1) sensor power</text>
+<text x="400" y="192" text-anchor="middle">PA0 (A0) ADC1_IN5</text>
+<text x="400" y="297" text-anchor="middle">GND</text>
+<text x="400" y="397" text-anchor="middle">3V3 pin, MCU via IDD jumper</text>
+<text x="170" y="425" text-anchor="middle">USB, CR2032 or 2 x AA</text>
+<text x="520" y="130">RTC on LSE 32.768 kHz</text>
+<text x="520" y="160">Wake-up timer, Stop 2 between samples</text>
+<text x="520" y="190">ADC: VREFINT, temp sensor, IN5</text>
+<text x="520" y="220">32-record ring buffer in SRAM</text>
+<text x="520" y="250">USART2 to ST-LINK VCP, 115200</text>
+<text x="520" y="280">PA1 high only about 1.5 ms per wake-up</text>
+<text x="520" y="340">Unused pins set to analog</text>
+<text x="520" y="370">Debug in Stop mode off for measurements</text>
+</g>
+</svg>

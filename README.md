@@ -11,6 +11,7 @@ with its own README, documentation, design files and BOM.
 | 03 | [lm317-adjustable-supply](03-lm317-adjustable-supply) | **PCB** | KiCad schematic + PCB, gerbers, BOM, assembly and ordering guide |
 | 04 | [nano-rgb-led-controller](04-nano-rgb-led-controller) | Hobby / mixed | 12 V RGB strip controller: schematic, perfboard guide, firmware |
 | 05 | [hackathon-gridwatch](05-hackathon-gridwatch) | Hackathon | Energy anomaly detection demo, pitch, judge Q&A, 24 h plan |
+| 06 | [stm32-rtc-low-power-logger](06-stm32-rtc-low-power-logger) | STM32 firmware | Stop 2 + RTC wake-up loop, VREFINT supply and temp maths, ring buffer, current budget model |
 
 ## Status
 
