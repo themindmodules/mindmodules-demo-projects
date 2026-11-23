@@ -1,0 +1,2010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>hardware/kicad/cable_tester.kicad_sch</source>
+    <date>2026-11-23T14:25:43</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>8-Wire Cable Continuity Tester (USB 5 V)</title>
+        <company>TheMindModules</company>
+        <rev>A</rev>
+        <date/>
+        <source>cable_tester.kicad_sch</source>
+        <comment number="1" value="Demo project for MindModules Inner Circle"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>289b7c3b-4994-46e2-a896-8f1299519d8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b457e347-d949-47cb-9739-bf0df6d470c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>528e08d6-f9f3-47e8-a8aa-96759963fe57</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2673e8b7-943c-4d8d-aed9-80f59272b2a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bfceba4-ab15-4cd4-8475-a579eaff968c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41490ca7-5217-4f53-b988-c1c1c6f37a38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b845f62-81a0-40b1-8750-ca5172a57f3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4daed63-c0c6-450d-9f70-4bc70edb3a4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b46c371e-5501-404a-aab6-f2430c09dd78</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2afd6fdc-96af-471d-bf70-ab945a480a8a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2c48a6a-62eb-4e8d-a6cc-d3a644227256</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D9">
+      <value>LED yellow (wire 1)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17175140-2c20-47e1-b952-b73ffe6e667a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D10">
+      <value>LED yellow (wire 2)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b154356-656f-4927-9989-47c0a74fd0b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D11">
+      <value>LED yellow (wire 3)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20315a5a-5163-48a5-aa50-07a8d5d55ccb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D12">
+      <value>LED yellow (wire 4)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22fdf2b5-91e2-4038-aa91-12c0631cbd22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D13">
+      <value>LED yellow (wire 5)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfb65c96-ed39-4086-8a06-cf51b6c96f98</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D14">
+      <value>LED yellow (wire 6)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f69f404-4890-45e1-ae15-34efd7c2333a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D15">
+      <value>LED yellow (wire 7)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ff16c8c-24ec-4163-a40c-b3c3716ccf75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D16">
+      <value>LED yellow (wire 8)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50ef048e-2301-4c0e-aec2-97c7e3a3bd75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D17">
+      <value>LED green (PASS)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a6c91c1-3124-4c6a-bc13-a671f763aefa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D18">
+      <value>LED red (FAIL)</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3474145-7b12-42fc-88f9-d6f24591ea5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>NEAR END (cable side A)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d6e217e-f038-48e3-91c8-649b4ff9676d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>FAR END (cable side B)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9a6abf9-b21e-494f-b51d-8076c8554172</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebd0f4a9-facc-4f0a-8703-4d8f60915c83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e288c8ad-7972-42ba-be06-0aac0ec2161d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e054a6a-4f1b-4fe5-9bd9-45181174bb74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>957cd3b5-fcc1-4fd5-9b7f-1ff68d252b09</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aab89d73-e967-4f49-a964-fc74f1a3fee4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7b55cbf-d5ec-4b29-8ad4-29bb3b00c499</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dbd2722-f57b-45af-acc6-bfb259329fec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>710b1f8f-6081-487e-8c29-dbcbb90ff017</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8d4de12-0afe-4e19-8afa-e76d8da04e79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1be4bdc6-7cbd-4757-8dbe-93b08322e26e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca11ae0f-0244-47ee-86a1-bd02488c446d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40f20ec-a60d-4b7d-a8c6-c80115fb0131</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a25f293-931c-4928-ba70-9a8fc68a2833</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fd8f8d4-ecf6-45ba-94e9-1d4fd3f7aec5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>126fc48c-dca4-40d4-b4a2-6000901fa8cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7d2c036-6c7a-4d62-b2ed-323df734d041</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d24e90e5-c4d5-4fb0-be62-0a102bfb897f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db4f609c-440b-49b4-af46-720c7d2dd734</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b08b06e-83f3-4ea6-9cda-7ba4d041fff2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a96195ca-01fd-4311-b599-8e83c044a802</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8309a057-0c23-4c21-98e1-1b2745274825</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d2448c2-da2e-4aa5-8d93-d654cd478e4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1ee0f91-222c-42b5-8a4c-47dc36c91a64</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d477ed78-9511-4d32-be41-224ec93c4c5f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5a248c7-a41a-4d2c-940c-7f5f0d3542e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>394fdc57-2f8f-4ba8-a59a-1203b93ff3aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>WIRES (count select)</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_PUSH_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40a3593-e341-4dd1-96f1-dc503b014cf8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>Arduino Nano</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <fields>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <property name="ki_fp_filters" value="Arduino*Nano*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0b363b4-ceb8-4434-bdbe-cc33e21c5e12</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="30"/>
+            <pin num="4"/>
+            <pin num="17"/>
+            <pin num="29"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="3"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595 (drive)</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm_Socket</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="HCMOS SR 3State"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d730116-babc-4f2d-bd2d-e2295468b21c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="15"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>74HC595 (LEDs)</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm_Socket</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="HCMOS SR 3State"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2b641fe-8ad7-4ec0-a967-58e7f65875bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="15"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>74HC165 (sense)</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm_Socket</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="74xx" part="74LS165" description="Shift Register 8-bit, parallel load"/>
+      <property name="Sheetname" value="cable_tester"/>
+      <property name="Sheetfile" value="cable_tester.kicad_sch"/>
+      <property name="ki_keywords" value="TTL SR SR8"/>
+      <property name="ki_fp_filters" value="DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>679506b9-9c0a-44a2-99e2-53a5caea5656</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+        <field name="Description">8-bit serial in/out Shift Register 3-State Outputs</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS165">
+      <description>Shift Register 8-bit, parallel load</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+        <fp>SO*16*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SSOP*16*5.3x6.2mm*P0.65mm*</fp>
+        <fp>TSSOP*16*4.4x5mm*P0.65*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS165</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf</field>
+        <field name="Description">Shift Register 8-bit, parallel load</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{PL}" type="input"/>
+        <pin num="2" name="CP" type="input"/>
+        <pin num="3" name="D4" type="input"/>
+        <pin num="4" name="D5" type="input"/>
+        <pin num="5" name="D6" type="input"/>
+        <pin num="6" name="D7" type="input"/>
+        <pin num="7" name="~{Q7}" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q7" type="output"/>
+        <pin num="10" name="DS" type="input"/>
+        <pin num="11" name="D0" type="input"/>
+        <pin num="12" name="D1" type="input"/>
+        <pin num="13" name="D2" type="input"/>
+        <pin num="14" name="D3" type="input"/>
+        <pin num="15" name="~{CE}" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</field>
+        <field name="Description">Arduino Nano v2.x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>${KICAD10_SYMBOL_DIR}/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="+5V_27" pintype="power_out"/>
+      <node ref="U2" pin="10" pinfunction="~{SRCLR}_10" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="~{SRCLR}_10" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U4" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+    </net>
+    <net code="2" name="/BTN" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D2_5" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/DRV_D1" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/DRV_D2" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/DRV_D3" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/DRV_D4" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/DRV_D5" class="Default">
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/DRV_D6" class="Default">
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/DRV_D7" class="Default">
+      <node ref="D7" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/DRV_D8" class="Default">
+      <node ref="D8" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/DRV_Q1" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="QA_15" pintype="tri_state"/>
+    </net>
+    <net code="12" name="/DRV_Q2" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="QB_1" pintype="tri_state"/>
+    </net>
+    <net code="13" name="/DRV_Q3" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="QC_2" pintype="tri_state"/>
+    </net>
+    <net code="14" name="/DRV_Q4" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="QD_3" pintype="tri_state"/>
+    </net>
+    <net code="15" name="/DRV_Q5" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="QE_4" pintype="tri_state"/>
+    </net>
+    <net code="16" name="/DRV_Q6" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="QF_5" pintype="tri_state"/>
+    </net>
+    <net code="17" name="/DRV_Q7" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="QG_6" pintype="tri_state"/>
+    </net>
+    <net code="18" name="/DRV_Q8" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="QH_7" pintype="tri_state"/>
+    </net>
+    <net code="19" name="/FAR_1" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="D0_11" pintype="input"/>
+    </net>
+    <net code="20" name="/FAR_2" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="D1_12" pintype="input"/>
+    </net>
+    <net code="21" name="/FAR_3" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="D2_13" pintype="input"/>
+    </net>
+    <net code="22" name="/FAR_4" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="D3_14" pintype="input"/>
+    </net>
+    <net code="23" name="/FAR_5" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="D4_3" pintype="input"/>
+    </net>
+    <net code="24" name="/FAR_6" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="D5_4" pintype="input"/>
+    </net>
+    <net code="25" name="/FAR_7" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="D6_5" pintype="input"/>
+    </net>
+    <net code="26" name="/FAR_8" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="D7_6" pintype="input"/>
+    </net>
+    <net code="27" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="GND_29" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="~{OE}_13" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="~{OE}_13" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="DS_10" pintype="input"/>
+      <node ref="U4" pin="15" pinfunction="~{CE}_15" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="GND_8" pintype="power_in"/>
+    </net>
+    <net code="28" name="/LATCH" class="Default">
+      <node ref="U1" pin="13" pinfunction="D10_13" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="RCLK_12" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="RCLK_12" pintype="input"/>
+    </net>
+    <net code="29" name="/LEDA_1" class="Default">
+      <node ref="D9" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/LEDA_2" class="Default">
+      <node ref="D10" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/LEDA_3" class="Default">
+      <node ref="D11" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/LEDA_4" class="Default">
+      <node ref="D12" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/LEDA_5" class="Default">
+      <node ref="D13" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/LEDA_6" class="Default">
+      <node ref="D14" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="/LEDA_7" class="Default">
+      <node ref="D15" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="/LEDA_8" class="Default">
+      <node ref="D16" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/LEDQ_1" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="QA_15" pintype="tri_state"/>
+    </net>
+    <net code="38" name="/LEDQ_2" class="Default">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="QB_1" pintype="tri_state"/>
+    </net>
+    <net code="39" name="/LEDQ_3" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="QC_2" pintype="tri_state"/>
+    </net>
+    <net code="40" name="/LEDQ_4" class="Default">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="QD_3" pintype="tri_state"/>
+    </net>
+    <net code="41" name="/LEDQ_5" class="Default">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="QE_4" pintype="tri_state"/>
+    </net>
+    <net code="42" name="/LEDQ_6" class="Default">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="QF_5" pintype="tri_state"/>
+    </net>
+    <net code="43" name="/LEDQ_7" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="QG_6" pintype="tri_state"/>
+    </net>
+    <net code="44" name="/LEDQ_8" class="Default">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="QH_7" pintype="tri_state"/>
+    </net>
+    <net code="45" name="/LED_FAIL" class="Default">
+      <node ref="D18" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="/LED_PASS" class="Default">
+      <node ref="D17" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="/MCU_FAIL" class="Default">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D4_7" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/MCU_PASS" class="Default">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D3_6" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/NEAR_1" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="50" name="/NEAR_2" class="Default">
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="51" name="/NEAR_3" class="Default">
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="52" name="/NEAR_4" class="Default">
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="53" name="/NEAR_5" class="Default">
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="54" name="/NEAR_6" class="Default">
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="55" name="/NEAR_7" class="Default">
+      <node ref="D7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="56" name="/NEAR_8" class="Default">
+      <node ref="D8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+    </net>
+    <net code="57" name="/RX_DATA" class="Default">
+      <node ref="U1" pin="15" pinfunction="D12_15" pintype="bidirectional"/>
+      <node ref="U4" pin="9" pinfunction="Q7_9" pintype="output"/>
+    </net>
+    <net code="58" name="/RX_LOAD" class="Default">
+      <node ref="U1" pin="12" pinfunction="D9_12" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="~{PL}_1" pintype="input"/>
+    </net>
+    <net code="59" name="/SCK" class="Default">
+      <node ref="U1" pin="16" pinfunction="D13_16" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="SRCLK_11" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="SRCLK_11" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="CP_2" pintype="input"/>
+    </net>
+    <net code="60" name="/SER" class="Default">
+      <node ref="U1" pin="14" pinfunction="D11_14" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="SER_14" pintype="input"/>
+    </net>
+    <net code="61" name="/SER2" class="Default">
+      <node ref="U2" pin="9" pinfunction="QH'_9" pintype="output"/>
+      <node ref="U3" pin="14" pinfunction="SER_14" pintype="input"/>
+    </net>
+    <net code="62" name="unconnected-(U1-3V3-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="3V3_17" pintype="power_out+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-A0-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="A0_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-A1-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="A1_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-A2-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="A2_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-A3-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="A3_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-A4-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="A4_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-A5-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="A5_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-A6-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="A6_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-A7-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="A7_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-AREF-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="AREF_18" pintype="input+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-D0/RX-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="D0/RX_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-D1/TX-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="D1/TX_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-D5-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="D5_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-D6-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="D6_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-D7-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="D7_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-D8-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="D8_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-VIN-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="VIN_30" pintype="power_in+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-~{RESET}-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="~{RESET}_3" pintype="input+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1-~{RESET}-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="~{RESET}_28" pintype="input+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-QH'-Pad9)" class="Default">
+      <node ref="U3" pin="9" pinfunction="QH'_9" pintype="output+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U4-~{Q7}-Pad7)" class="Default">
+      <node ref="U4" pin="7" pinfunction="~{Q7}_7" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
