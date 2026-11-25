@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Segoe UI, Arial, sans-serif">
+<rect width="900" height="460" fill="#07120f"/>
+<g fill="none" stroke="#00e676" stroke-width="2">
+<rect x="60" y="60" width="260" height="340" rx="14" fill="#0b1f18"/>
+<rect x="600" y="100" width="240" height="130" rx="14" fill="#0b1f18"/>
+<rect x="600" y="270" width="240" height="90" rx="14" fill="#0b1f18" stroke-dasharray="6 5"/>
+<path d="M320 140H600" stroke="#ffb454"/>
+<path d="M320 190H600" stroke="#00b0ff"/>
+<path d="M320 240H600" stroke="#ff5252"/>
+<path d="M320 290H600" stroke="#9bbfae"/>
+<path d="M440 140V100M520 190V100" stroke="#ff5252"/>
+</g>
+<g fill="#eafff4" font-size="20">
+<text x="190" y="95" text-anchor="middle" font-weight="700">NUCLEO-F411RE</text>
+<text x="720" y="135" text-anchor="middle" font-weight="700">LM75 / TMP102</text>
+<text x="720" y="305" text-anchor="middle">second device (optional)</text>
+</g>
+<g fill="#9bbfae" font-size="16">
+<text x="190" y="140" text-anchor="middle">PB8 (D15) SCL</text>
+<text x="190" y="190" text-anchor="middle">PB9 (D14) SDA</text>
+<text x="190" y="240" text-anchor="middle">3V3</text>
+<text x="190" y="290" text-anchor="middle">GND</text>
+<text x="190" y="350" text-anchor="middle">PA2/PA3 to USB serial (ST-LINK)</text>
+<text x="460" y="132" text-anchor="middle">SCL</text>
+<text x="460" y="182" text-anchor="middle">SDA</text>
+<text x="460" y="232" text-anchor="middle">3V3</text>
+<text x="460" y="282" text-anchor="middle">GND</text>
+<text x="440" y="90" text-anchor="middle">4.7k</text>
+<text x="520" y="90" text-anchor="middle">4.7k</text>
+<text x="480" y="75" text-anchor="middle">pull-ups to 3V3</text>
+<text x="720" y="165" text-anchor="middle">address 0x48 (A0 low)</text>
+<text x="720" y="195" text-anchor="middle">register 0 = temperature</text>
+</g>
+</svg>

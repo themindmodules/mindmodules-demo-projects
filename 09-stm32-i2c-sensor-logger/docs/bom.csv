@@ -1,0 +1,7 @@
+Ref,Qty,Value,Notes
+Board,1,NUCLEO-F411RE,Any STM32 board with I2C and a UART to the PC also works after changing pins
+U1,1,LM75 or TMP102 breakout,3.3 V part. Default address 0x48
+R1-R2,2,4.7 kohm,SDA and SCL pull-ups to 3V3 (2.2 kohm for 400 kHz)
+Wires,4,Jumper wires,3V3 GND SDA SCL
+Extra,1,Any second I2C module (optional),Used to see two addresses in the scan
+Cable,1,USB cable,Power and ST-LINK virtual COM port

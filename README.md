@@ -14,6 +14,7 @@ with its own README, documentation, design files and BOM.
 | 06 | [stm32-rtc-low-power-logger](06-stm32-rtc-low-power-logger) | STM32 firmware | Stop 2 + RTC wake-up loop, VREFINT supply and temp maths, ring buffer, current budget model |
 | 07 | [hobby-cable-tester](07-hobby-cable-tester) | Hobby / mixed | 8-wire tester with 595/165 scan: schematic, perfboard wiring table, firmware with testable logic |
 | 08 | [pcb-lifepo4-4s-bms](08-pcb-lifepo4-4s-bms) | PCB | KiCad schematic and PCB, gerbers, TL431 balancer, LM393 cutoff, design notes, test plan. Topic suggested by Sujan Ghosh |
+| 09 | [stm32-i2c-sensor-logger](09-stm32-i2c-sensor-logger) | STM32 firmware | Bus scan with device hints, LM75/TMP102 CSV logger, CubeMX settings, pull-up maths, test plan |
 
 ## Status
 
