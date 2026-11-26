@@ -1,0 +1,21 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","100uF 10V","CP_Radial_D6.3mm_P2.50mm",46.000000,-69.000000,0.000000,top
+"C2","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",52.000000,-62.000000,0.000000,top
+"D1","1N4148","D_DO-35_SOD27_P7.62mm_Horizontal",11.000000,-35.000000,0.000000,top
+"D2","1N4148","D_DO-35_SOD27_P7.62mm_Horizontal",43.000000,-35.000000,0.000000,top
+"D3","red 3mm","LED_D3.0mm",24.540000,-39.500000,180.000000,top
+"D4","red 3mm","LED_D3.0mm",56.540000,-39.500000,180.000000,top
+"J1","RELAY 1","TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",5.000000,-6.000000,0.000000,top
+"J2","RELAY 2","TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",37.000000,-6.000000,0.000000,top
+"J3","5V IN","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",20.000000,-69.000000,180.000000,top
+"J4","CONTROL","PinHeader_1x04_P2.54mm_Vertical",36.000000,-70.000000,-90.000000,top
+"K1","SRD-05VDC-SL-C","Relay_SPDT_SANYOU_SRD_Series_Form_C",9.000000,-22.000000,0.000000,top
+"K2","SRD-05VDC-SL-C","Relay_SPDT_SANYOU_SRD_Series_Form_C",41.000000,-22.000000,0.000000,top
+"Q1","BC337","TO-92_Inline_Wide",9.000000,-45.500000,0.000000,top
+"Q2","BC337","TO-92_Inline_Wide",41.000000,-45.500000,0.000000,top
+"R1","470R","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",19.160000,-51.000000,180.000000,top
+"R2","10k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",11.540000,-55.500000,0.000000,top
+"R3","470R","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",51.160000,-51.000000,180.000000,top
+"R4","10k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",43.540000,-55.500000,0.000000,top
+"R5","1k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",11.000000,-39.500000,0.000000,top
+"R6","1k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",43.000000,-39.500000,0.000000,top
