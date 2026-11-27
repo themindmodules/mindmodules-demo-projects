@@ -1,0 +1,9 @@
+*.o
+*.elf
+*.bin
+*.hex
+Debug/
+Release/
+.vscode/
+__pycache__/
+_build/

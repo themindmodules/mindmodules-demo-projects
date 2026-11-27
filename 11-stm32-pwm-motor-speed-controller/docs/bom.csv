@@ -1,0 +1,10 @@
+Ref,Qty,Value,Notes
+Board,1,NUCLEO-F411RE,Any STM32 with two PWM channels on one timer and an encoder timer works after changing pins
+U1,1,DRV8871 H-bridge breakout,6.5 to 45 V motor supply. Check the ILIM resistor: 30 kohm gives about 2.1 A limit
+M1,1,12 V DC gear motor with hall encoder,Example: 25 mm motor with 11 pulse encoder and 30:1 gearbox (often sold as JGA25-370 with encoder). Set ENC_CPR to match yours
+C1,1,100 uF 25 V electrolytic,Across the motor supply at the driver board. Many breakouts already have one
+PSU,1,12 V DC adapter 2 A,Motor supply only. Low voltage. Do not use the Nucleo 5 V rail for the motor
+J1,1,DC barrel jack to screw terminal,For the 12 V adapter
+Wires,8,Jumper wires,IN1 IN2 GND to the driver. 3V3 GND A B to the encoder
+Cable,1,USB cable,Nucleo power and ST-LINK virtual COM port
+Tool,1,Oscilloscope or logic analyser (optional),For PWM checks in docs/test-plan.md

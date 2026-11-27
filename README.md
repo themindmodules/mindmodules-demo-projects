@@ -16,6 +16,7 @@ with its own README, documentation, design files and BOM.
 | 08 | [pcb-lifepo4-4s-bms](08-pcb-lifepo4-4s-bms) | PCB | KiCad schematic and PCB, gerbers, TL431 balancer, LM393 cutoff, design notes, test plan. Topic suggested by Sujan Ghosh |
 | 09 | [stm32-i2c-sensor-logger](09-stm32-i2c-sensor-logger) | STM32 firmware | Bus scan with device hints, LM75/TMP102 CSV logger, CubeMX settings, pull-up maths, test plan |
 | 10 | [pcb-transistor-relay-driver](10-pcb-transistor-relay-driver) | PCB | BC337 low side relay drivers with flyback diodes and LEDs, base resistor maths, KiCad schematic, routed PCB and gerbers |
+| 11 | [stm32-pwm-motor-speed-controller](11-stm32-pwm-motor-speed-controller) | STM32 firmware | STM32F411 + DRV8871, encoder on TIM2, 100 Hz PI loop with anti-windup, live tuning over UART, loop simulator |
 
 ## Status
 
