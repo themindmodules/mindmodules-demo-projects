@@ -1,0 +1,245 @@
+{
+ "seed": 12,
+ "students": {
+  "S001": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S002": {
+   "case": "proxied",
+   "in_room": false
+  },
+  "S003": {
+   "case": "absent",
+   "in_room": false
+  },
+  "S004": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S005": {
+   "case": "double",
+   "in_room": true
+  },
+  "S006": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S007": {
+   "case": "late",
+   "in_room": true
+  },
+  "S008": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S009": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S010": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S011": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S012": {
+   "case": "double",
+   "in_room": true
+  },
+  "S013": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S014": {
+   "case": "stale",
+   "in_room": false
+  },
+  "S015": {
+   "case": "proxied",
+   "in_room": false
+  },
+  "S016": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S017": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S018": {
+   "case": "double",
+   "in_room": true
+  },
+  "S019": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S020": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S021": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S022": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S023": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S024": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S025": {
+   "case": "stale",
+   "in_room": false
+  },
+  "S026": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S027": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S028": {
+   "case": "absent",
+   "in_room": false
+  },
+  "S029": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S030": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S031": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S032": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S033": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S034": {
+   "case": "absent",
+   "in_room": false
+  },
+  "S035": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S036": {
+   "case": "late",
+   "in_room": true
+  },
+  "S037": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S038": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S039": {
+   "case": "forged",
+   "in_room": false
+  },
+  "S040": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S041": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S042": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S043": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S044": {
+   "case": "proxied",
+   "in_room": false
+  },
+  "S045": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S046": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S047": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S048": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S049": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S050": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S051": {
+   "case": "newphone",
+   "in_room": true
+  },
+  "S052": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S053": {
+   "case": "absent",
+   "in_room": false
+  },
+  "S054": {
+   "case": "double",
+   "in_room": true
+  },
+  "S055": {
+   "case": "absent",
+   "in_room": false
+  },
+  "S056": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S057": {
+   "case": "friend",
+   "in_room": true
+  },
+  "S058": {
+   "case": "friend",
+   "in_room": true
+  },
+  "S059": {
+   "case": "normal",
+   "in_room": true
+  },
+  "S060": {
+   "case": "normal",
+   "in_room": true
+  }
+ }
+}

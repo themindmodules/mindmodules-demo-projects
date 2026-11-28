@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>RollCall demo dashboard</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--fg:#1d1f24;--mut:#6b6f78;--line:#e3dfd6;
+--ok:#2e8b57;--late:#3a7bd5;--rev:#d79b00;--sus:#c8372d;--abs:#b9b5ab}
+@media (prefers-color-scheme:dark){:root{--bg:#15171b;--card:#1e2126;--fg:#ecebe7;--mut:#9a9ea7;--line:#2e3239;--abs:#4a4d54}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:Segoe UI,Arial,sans-serif;padding:20px 16px;max-width:1000px;margin:auto}
+h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:14px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;border-left:5px solid var(--abs)}
+.tile b{display:block;font-size:26px}.tile span{font-size:12px;color:var(--mut)}
+canvas{width:100%;height:200px;display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
+.st{border-radius:6px;padding:6px 0;text-align:center;font-size:12px;font-weight:600;color:#fff}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.tag{padding:2px 7px;border-radius:6px;font-size:11px;font-weight:700;color:#fff;white-space:nowrap}
+.wrap{overflow-x:auto}.legend span{display:inline-block;margin-right:12px;font-size:12px;color:var(--mut)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.PRESENT{background:var(--ok)}.LATE{background:var(--late)}.REVIEW{background:var(--rev)}.SUSPECT{background:var(--sus)}.ABSENT{background:var(--abs)}
+.t-PRESENT{border-left-color:var(--ok)}.t-LATE{border-left-color:var(--late)}.t-REVIEW{border-left-color:var(--rev)}.t-SUSPECT{border-left-color:var(--sus)}
+</style></head><body>
+<h1>RollCall <span style="color:var(--mut);font-weight:400">demo</span></h1>
+<div class="sub" id="sub">Synthetic lecture from simulator/sim.py. No real students or phones.</div>
+<div class="tiles" id="tiles"></div>
+<div class="card"><b>Scans every 30 s</b>
+ <div class="legend"><span><i style="background:var(--ok)"></i>accepted</span><span><i style="background:var(--sus)"></i>rejected</span><span>dashed line: scanning closes</span></div>
+ <canvas id="bins"></canvas></div>
+<div class="card"><b>Class list</b><div class="grid" id="grid" style="margin-top:10px"></div></div>
+<div class="card"><b>Flags for the teacher</b><div class="wrap"><table id="flags"><tr><th>Time</th><th>Rule</th><th>Student</th><th>Device</th><th>Detail</th></tr></table></div></div>
+<div class="card" id="evalcard" style="display:none"><b>Check against the injected cases</b><div id="eval" style="font-size:14px;margin-top:6px"></div></div>
+<script src="data.js"></script>
+<script>
+var D = window.ROLLCALL;
+var COLOR = {"INVALID-TOKEN":"SUSPECT","STALE-TOKEN":"SUSPECT","FOREIGN-DEVICE":"SUSPECT","SHARED-DEVICE":"SUSPECT","NEW-DEVICE":"REVIEW","LATE":"LATE","DUPLICATE":"ABSENT"};
+function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!==undefined)e.textContent=h;return e;}
+document.getElementById("sub").textContent = "Session " + D.session + ", " + D.scans + " scans. Synthetic lecture from simulator/sim.py. No real students or phones.";
+["PRESENT","LATE","REVIEW","SUSPECT","ABSENT"].forEach(function(k){
+  var t=el("div","tile t-"+k); t.appendChild(el("b","",D.counts[k]||0)); t.appendChild(el("span","",k.toLowerCase()));
+  document.getElementById("tiles").appendChild(t);
+});
+Object.keys(D.status).forEach(function(s){
+  var e=el("div","st "+D.status[s],s); e.title=D.status[s]; document.getElementById("grid").appendChild(e);
+});
+var tb=document.getElementById("flags");
+D.flags.forEach(function(f){
+  var tr=el("tr"); tr.appendChild(el("td","",f.time));
+  var td=el("td"); td.appendChild(el("span","tag "+(COLOR[f.type]||"ABSENT"),f.type)); tr.appendChild(td);
+  tr.appendChild(el("td","",f.student)); tr.appendChild(el("td","",f.device)); tr.appendChild(el("td","",f.detail));
+  tb.appendChild(tr);
+});
+if(D.eval){
+  var e=D.eval; document.getElementById("evalcard").style.display="block";
+  document.getElementById("eval").textContent = "Students in the room marked present: "+e.in_room_marked+" of "+e.in_room_total+
+    " ("+e.in_room_review+" need a quick review). Cheating attempts blocked: "+e.cheat_blocked+" of "+e.cheat_total+".";
+}
+function draw(){
+  var c=document.getElementById("bins"), dpr=window.devicePixelRatio||1, W=c.clientWidth, H=c.clientHeight;
+  c.width=W*dpr; c.height=H*dpr; var g=c.getContext("2d"); g.scale(dpr,dpr);
+  var css=getComputedStyle(document.documentElement), ok=css.getPropertyValue("--ok"), bad=css.getPropertyValue("--sus"), mut=css.getPropertyValue("--mut");
+  var n=D.bins.length, max=1; D.bins.forEach(function(b){max=Math.max(max,b.ok+b.bad);});
+  var L=28,B=22,bw=(W-L)/n;
+  g.fillStyle=mut; g.font="11px Segoe UI,Arial"; g.fillText(max,4,12); g.fillText("0",4,H-B);
+  D.bins.forEach(function(b,i){
+    var x=L+i*bw+1, h1=(H-B-6)*b.ok/max, h2=(H-B-6)*b.bad/max;
+    g.fillStyle=ok; g.fillRect(x,H-B-h1,bw-2,h1);
+    g.fillStyle=bad; g.fillRect(x,H-B-h1-h2,bw-2,h2);
+    if(i%4===0){g.fillStyle=mut; g.fillText((b.t/60)+"m",x,H-6);}
+  });
+  var xc=L+(D.close_s/30)*bw; g.strokeStyle=mut; g.setLineDash([4,4]); g.beginPath(); g.moveTo(xc,0); g.lineTo(xc,H-B); g.stroke();
+}
+draw(); window.addEventListener("resize",draw);
+</script>
+</body></html>
